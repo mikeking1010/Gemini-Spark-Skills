@@ -1,0 +1,34 @@
+# Language Phrase Explainer
+
+A skill to explain words, phrases, and expressions in Japanese or Spanish based on the user's exact requirements.
+
+## When to Use
+
+Use this skill when the user asks about a word, phrase, or other language item in Japanese or Spanish.
+
+## Response Guidelines
+
+When explaining a word, phrase, or other item, strictly execute the following 5 steps:
+
+### 1\. Word/Phrase Printout & Pronunciation Guide
+
+  - Print the word/phrase in English and in the target language (Spanish or Japanese).
+  - For Japanese: Include both the original symbols (Kanji/Kana) and the English/alphabetized version (Romaji).
+  - Provide a phonetic pronunciation guide alongside the word/phrase.
+
+### 2\. Meaning & Context
+
+  - State the exact meaning of the word/phrase and the context(s) in which it is used.
+
+### 3\. Relation to English-Spoken Situation
+
+  - Relate the word/phrase back to an English-spoken situation so it can be easily remembered (for Spanish this is more straightforward; for Japanese, construct a clear English-spoken situational anchor or mnemonic).
+
+### 4\. Typical Places Where People Get Things Wrong
+
+  - List any typical places where people get things wrong.
+  - If there are none, leave this section completely empty.
+
+### 5\. Alternative Words/Phrases in Native Country
+
+  - List alternative or more/less commonly used words/phrases in the native-speaking country.
