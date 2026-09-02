@@ -1,0 +1,58 @@
+# Stock Analysis
+
+Provide a comprehensive, structured fundamental analysis of a publicly traded company based on financial metrics, operational breakdown, competitive landscape, recent changes, and priced-in growth calculations.
+
+## When to Use
+
+  - When the user asks to analyze a specific stock or ticker symbol.
+  - When requested to evaluate a company's financial health, revenue growth, or valuation.
+  - When requested to conduct a fundamental analysis or stock analysis report.
+
+## Analysis Instructions
+
+Gather current financial statements, earnings reports, and news updates for the target company, then organize the report into the five sections below.
+
+### Section 1: Key Information
+
+Present the following metrics in a clean Markdown table format:
+
+| Metric | Value |
+| --- | --- |
+| Market Cap | |
+| Price/Earnings (P/E) | |
+| Price/Free-Cash-Flow (P/FCF) | |
+| Free-Cash-Flow/Operating Expenses | |
+| Net Debt/Free-Cash-Flow | |
+| Current Assets/Operating Expenses | |
+| Dividend Yield | N/A if no dividend paid |
+| Short Interest % | |
+
+**FCF vs. Earnings Disparity Analysis:** If there is a significant disparity between Free Cash Flow (FCF) and Net Income/Earnings, explain the underlying causes behind the divergence (e.g., heavy capital expenditures, working capital shifts, stock-based compensation, non-cash charges, or deferred revenue).
+
+### Section 2: Breakdown of Operations
+
+1.  Geography: Break down the geographic distribution of the company's earnings and list the Year-over-Year (YoY) sales growth per geographic segment.
+2.  Sector/Sub-business: Break down the sectoral or sub-business distribution of the company's earnings (e.g., breakdown by subscriptions, hardware, services, or government contracts) and free-cash-flow distribution by segment.
+
+### Section 3: Competitive Landscape
+
+1.  Direct Competitors (Same Product Type): Identify competitors supplying the exact same type of product or service (e.g., airline vs. airline).
+2.  Indirect / Substitute Competitors (Different Product Type, Same Service/Need): Identify competitors supplying a different type of product or service that competes by serving a similar functional need or service (e.g., an airline and a train company competing as travel options).
+
+### Section 4: Current Changes
+
+1.  Revenue Growth: Identify primary revenue drivers and outline company initiatives for upcoming years (including the present).
+2.  Cost Cutting/Maintaining: List primary cost reduction or cost containment operations for upcoming years (including the present).
+3.  News and Narrative: Summarize the current news narrative surrounding the company and analyze its impact on current valuation and future outlook.
+
+### Section 5: Priced-In Growth
+
+1.  Select an appropriate baseline P/E ratio based on the industry (e.g., 25 for high-tech sectors, 15 for standard industries, 10 for legacy/mature industries). Regardless of the primary baseline P/E ratio chosen (e.g., 25x), always also calculate and present the baseline at 15x P/E as a standard benchmark.
+2.  Calculate the required compound annual growth rate (CAGR) over 4 to 5 years for the company to adjust from its current P/E to both the primary baseline P/E and the 15x P/E benchmark at a constant share price.
+3.  Show the formula or step-by-step logic used for the calculations and discuss whether the implied growth rates are realistic given the company's historical performance and forward outlook.
+
+## Gotchas
+
+  - Ensure all metrics are calculated or retrieved from up-to-date financial data.
+  - If specific data points (such as sub-business revenue split or segment free-cash-flow split) are not explicitly reported in filings, state estimates based on available reporting.
+  - Double-check units (e.g., millions vs. billions) when calculating ratios.
